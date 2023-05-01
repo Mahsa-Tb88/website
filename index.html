@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> welcome to Company's Name</title>
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Kreon:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="./css/font-awesome-4.7.0//css/font-awesome.min.css"
+    />
+    <!-- animation -->
+    <link rel="stylesheet" href="./css/animate.min.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Hedear -->
+    <header id="header" class="">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand">
+            <img
+              src="./images/logo.png"
+              alt="logo"
+              width="50px"
+              height="50px"
+            />
+          </a>
+
+          <div class="nav__toggler">
+            <div class="bar bar-one"></div>
+            <div class="bar bar-two"></div>
+            <div class="bar bar-three"></div>
+          </div>
+          <ul class="navbar-nav navbar-nav-hidden">
+            <li class="nav-item px-3">
+              <a class="nav-link text-white py-3 py-lg-0" href="#header"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link text-white py-3 py-lg-0" href="#aboutUs"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link text-white py-3 py-lg-0" href="#Services"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link text-white py-3 py-lg-0" href="#Statistics"
+                >Statistics</a
+              >
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link text-white py-3 py-lg-0" href="#skills"
+                >Skills</a
+              >
+            </li>
+            <li class="nav-item px-3">
+              <a
+                class="nav-link text-white py-3 py-lg-0 pe-lg-0"
+                href="#portfolio"
+                >Portfolio</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section id="slider">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div
+              class="carousel-item active"
+              style="background-image: url('./images/slider/1.jpg')"
+            >
+              <div class="carousel-item-overlay">
+                <div class="carousel-item-inner text-center">
+                  <h2 class="">we have the best team</h2>
+                  <p class="">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Eius voluptatum molestiae et ipsum vitae animi perspiciatis
+                    repellat ullam vel eaque magni totam debitis! Illum maxime
+                    velit dolore eos iusto tempore eius incidunt.
+                  </p>
+                  <button class="btn btn-success px-5 slider-btn">Start</button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="carousel-item"
+              style="background-image: url('./images/slider/2.jpg')"
+            >
+              <div class="carousel-item-overlay">
+                <div class="carousel-item-inner text-center">
+                  <h2 class="">We have done many projects</h2>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis pariatur voluptate illum porro tenetur, illo ab
+                    similique natus expedita maiores.
+                  </p>
+                  <button class="btn btn-success px-5">Start</button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="carousel-item"
+              style="background-image: url('./images/slider/3.jpg')"
+            >
+              <div class="carousel-item-overlay">
+                <div class="carousel-item-inner text-center">
+                  <h2 class="">We are ready for services</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maiores voluptatibus optio aperiam perspiciatis vitae
+                    voluptates sed dolorem aspernatur rerum, ab debitis error
+                    inventore odio corporis.
+                  </p>
+                  <button class="btn btn-success px-5">Strat</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <section id="aboutUs" class="text-center">
+        <div class="aboutUs-inner mx-auto">
+          <div class="aboutUs-header w-75 mx-auto mb-5 pt-5">
+            <h3 class="fw-bold display-6 mb-md-4">About us</h3>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum,
+              aut iure deleniti minus quia impedit perspiciatis reprehenderit
+              modi ab, odio error quaerat, atque possimus reiciendis alias.
+              Amet, corporis.
+            </p>
+          </div>
+          <!-- data-aos="fade-up"
+              data-aos-offset="150"
+              data-aos-delay="0" -->
+          <div class="abouts-us-cards row mx-auto">
+            <div class="col-md-4 mb-5 wow animate__backInUp">
+              <div class="card">
+                <img class="card-img-top" src="./images/about/mission.jpg" />
+                <div class="card-body my-5">
+                  <h5 class="card-title">Our Thought</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsam nobis cupiditate cum, neque quasi iusto quisquam
+                    ratione.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-5 wow animate__backInUp">
+              <div class="card">
+                <img class="card-img-top" src="./images/about/plan.jpg" />
+                <div class="card-body my-5">
+                  <h5 class="card-title">Our Plan</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsam nobis cupiditate cum, neque quasi iusto quisquam
+                    ratione.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-5 wow animate__backInUp">
+              <div class="card">
+                <img class="card-img-top" src="./images/about/vision.jpg" />
+                <div class="card-body my-5">
+                  <h5 class="card-title">Our Mission</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsam nobis cupiditate cum, neque quasi iusto quisquam
+                    ratione.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="Services"
+        class="mx-auto mt-5 d-flex flex-column justify-content-center align-items-center"
+      >
+        <h3 class="fw-bold display-6 mb-md-4">Services</h3>
+        <p class="lead w-75 text-center">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, aut
+          iure deleniti minus quia impedit perspiciatis reprehenderit modi ab,
+          odio error quaerat, atque possimus reiciendis alias. Amet, corporis.
+        </p>
+        <div class="row mt-5">
+          <div
+            class="col-sm-6 col-md-4 mb-5 wow animate__bounceInUp"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-offset="150"
+          >
+            <div class="card border-0">
+              <div class="card-body">
+                <div
+                  class="card-title d-flex flex-row justify-content-start align-items-start"
+                >
+                  <span
+                    ><i class="fa fa-envelope fa-2x me-2 text-success"></i
+                  ></span>
+                  <h4 class="">First Service</h4>
+                </div>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                  nihil distinctio minima consectetur harum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-4 mb-5 wow animate__bounceInUp"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-offset="150"
+          >
+            <div class="card border-0">
+              <div class="card-body">
+                <div
+                  class="card-title d-flex flex-row justify-content-start align-items-start"
+                >
+                  <span
+                    ><i class="me-2 fa fa-book fa-2x text-success"></i
+                  ></span>
+                  <h4 class="">Second Service</h4>
+                </div>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                  nihil distinctio minima consectetur harum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-4 mb-5 wow animate__bounceInUp"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-offset="150"
+          >
+            <div class="card border-0">
+              <div class="card-body">
+                <div
+                  class="card-title d-flex flex-row justify-content-start align-items-start"
+                >
+                  <span
+                    ><i class="me-2 fa fa-line-chart fa-2x text-success"></i
+                  ></span>
+                  <h4 class="">Third Service</h4>
+                </div>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                  nihil distinctio minima consectetur harum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-4 mb-5 wow animate__bounceInUp"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-offset="150"
+          >
+            <div class="card border-0">
+              <div class="card-body">
+                <div
+                  class="card-title d-flex flex-row justify-content-start align-items-start"
+                >
+                  <span
+                    ><i class="me-2 fa fa-chain-broken fa-2x text-success"></i
+                  ></span>
+                  <h4 class="">Forth Service</h4>
+                </div>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                  nihil distinctio minima consectetur harum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-4 mb-5 wow animate__bounceInUp"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-offset="150"
+          >
+            <div class="card border-0">
+              <div class="card-body">
+                <div
+                  class="card-title d-flex flex-row justify-content-start align-items-start"
+                >
+                  <span
+                    ><i class="me-2 fa fa-chain-broken fa-2x text-success"></i
+                  ></span>
+                  <h4 class="">Fifth Service</h4>
+                </div>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                  nihil distinctio minima consectetur harum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-4 mb-5 wow animate__bounceInUp"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-offset="150"
+          >
+            <div class="card border-0">
+              <div class="card-body">
+                <div
+                  class="card-title d-flex flex-row justify-content-start align-items-start"
+                >
+                  <span
+                    ><i class="me-2 fa fa-book fa-2x text-success"></i
+                  ></span>
+                  <h4 class="">Sixth Service</h4>
+                </div>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                  nihil distinctio minima consectetur harum.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Statistics">
+        <div class="w-75 mx-auto text-center">
+          <h3 class="fw-bold display-6 mb-md-4">Statistics</h3>
+          <p class="lead text-center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum,
+            aut iure deleniti minus quia impedit perspiciatis reprehenderit modi
+            ab, odio error quaerat, atque possimus reiciendis alias. Amet,
+            corporis.
+          </p>
+        </div>
+        <div class="row mx-auto text-center pt-5 statistics-desc">
+          <div class="col-md-3 pb-5">
+            <p class="display-4 fw-bold numbers mynum wow animate__zoomIn">
+              20
+            </p>
+            <p class="statistics-text">Employees</p>
+          </div>
+          <div class="col-md-3 pb-5">
+            <p class="display-4 fw-bold numbers wow animate__zoomIn">53</p>
+            <p class="statistics-text">completed projects</p>
+          </div>
+          <div class="col-md-3 pb-5">
+            <p class="display-4 fw-bold numbers wow animate__zoomIn">83</p>
+            <p class="statistics-text">Company establishment</p>
+          </div>
+          <div class="col-md-3 pb-5">
+            <p class="display-4 fw-bold numbers wow animate__zoomIn">103</p>
+            <p class="statistics-text">satisfaction</p>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="container">
+        <div class="w-75 mx-auto text-center">
+          <h3 class="fw-bold display-6 mb-md-4">Skills</h3>
+          <p class="lead text-center mb-5">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum,
+            aut iure deleniti minus quia impedit perspiciatis reprehenderit modi
+            ab, odio error quaerat, atque possimus reiciendis alias. Amet,
+            corporis.
+          </p>
+        </div>
+
+        <div class="progress mb-3">
+          <div
+            class="progress-bar py-3 bg-success d-flex flex-row justify-content-between align-items-center"
+            role="progressbar"
+            aria-valuenow="100"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <span class="px-1">Html</span>
+            <span class="px-1">100%</span>
+          </div>
+        </div>
+        <div class="progress mb-3">
+          <div
+            class="progress-bar bg-info py-3 d-flex flex-row justify-content-between align-items-center"
+            role="progressbar"
+            aria-valuenow="75"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <span class="px-1">Css</span>
+            <span class="px-1">85%</span>
+          </div>
+        </div>
+        <div class="progress mb-3">
+          <div
+            class="progress-bar bg-warning py-3 d-flex flex-row justify-content-between align-items-center"
+            role="progressbar"
+            aria-valuenow="50"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <span class="px-1">JavaScript</span>
+            <span class="px-1">75%%</span>
+          </div>
+        </div>
+        <div class="progress mb-3">
+          <div
+            class="progress-bar bg-danger py-3 d-flex flex-row justify-content-between align-items-center"
+            role="progressbar"
+            aria-valuenow="25"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <span class="px-1">React</span>
+            <span class="px-1">50%</span>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio" class="bg-light py-5">
+        <div class="text-center">
+          <h3 class="fw-bold display-6 mb-5">Some of our portfolio</h3>
+          <div
+            class="d-flex flex-row justify-content-center align-items-center pt-3 portfolio-btns"
+          >
+            <button class="btn btn-light shadow-sm bg-success text-white">
+              All
+            </button>
+
+            <button class="btn btn-light shadow-sm">App</button>
+
+            <button class="btn btn-light shadow-sm">Web</button>
+
+            <button class="btn btn-light shadow-sm">Graphic</button>
+          </div>
+          <div class="row mx-auto mt-5 portfolio-cards">
+            <!-- javascript code -->
+          </div>
+        </div>
+      </section>
+      <section class="team mb-5">
+        <div class="text-center w-75 mx-auto">
+          <h2 class="fw-bold display-6 mb-5">Team</h2>
+          <p class="lead text-center mb-5">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum,
+            aut iure deleniti minus quia impedit perspiciatis reprehenderit modi
+            ab, odio error quaerat, atque possimus reiciendis alias. Amet,
+            corporis.
+          </p>
+        </div>
+        <div class="row team-employee">
+          <div class="col-6 col-md-3">
+            <div class="card mb-5">
+              <div
+                class="card-overlay d-flex flex-column justify-content-center align-items-center"
+              >
+                <h3 class="text-white">First member</h3>
+                <p class="text-white mt-md-2">a programmer</p>
+                <ul
+                  class="list-unstyled gap-2 gap-md-3 mt-md-4 d-flex flex-row justify-content-center align-items-center"
+                >
+                  <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <img src="./images/team/team-1.jpg" alt="person" />
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card mb-5">
+              <div
+                class="card-overlay d-flex flex-column justify-content-center align-items-center"
+              >
+                <h3 class="text-white">Second member</h3>
+                <p class="text-white mt-2">a web designer</p>
+                <ul
+                  class="list-unstyled gap-2 gap-md-3 mt-md-4 d-flex flex-row justify-content-center align-items-center"
+                >
+                  <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+
+              <img src="./images/team/team-2.jpg" alt="person" />
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card mb-5">
+              <div
+                class="card-overlay d-flex flex-column justify-content-center align-items-center"
+              >
+                <h3 class="text-white">Third member</h3>
+                <p class="text-white mt-2">a programmer</p>
+                <ul
+                  class="list-unstyled gap-2 gap-md-3 mt-md-4 d-flex flex-row justify-content-center align-items-center"
+                >
+                  <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+
+              <img src="./images/team/team-3.jpg" alt="person" />
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card mb-5">
+              <div
+                class="card-overlay d-flex flex-column justify-content-center align-items-center"
+              >
+                <h3 class="text-white">Forth member</h3>
+                <p class="text-white mt-2">an engineer</p>
+                <ul
+                  class="list-unstyled gap-2 gap-md-3 mt-md-4 d-flex flex-row justify-content-center align-items-center"
+                >
+                  <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+
+              <img src="./images/team/team-4.jpg" alt="person" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer id="footer">
+      <div class="row footer-inner mx-auto">
+        <div class="col-md-3 mb-4 mb-md-0">
+          <h5 class="fw-bold mb-3">About Company</h5>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+            ratione minima iusto, illum culpa facere?
+          </p>
+        </div>
+        <div class="col-md-3 mb-4 mb-md-0 text-md-center links">
+          <h5 class="fw-bold mb-3">Links</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="text-decoration-none">Link 1</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none">Link 2</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none">Link 3</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none">Link 4</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none">Link 5</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-4 mb-md-0">
+          <h5 class="fw-bold mb-3">Contact us</h5>
+          <div>
+            <i class="fa fa-map-marker me-2" aria-hidden="true"></i
+            ><spn
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              expedita.</spn
+            >
+          </div>
+          <div>
+            <i class="fa fa-mobile me-1" aria-hidden="true"></i>
+            <span>+1(778) 342-432</span>
+          </div>
+          <div>
+            <i class="fa fa-envelope me-1" aria-hidden="true"></i>
+            <span>example@gmail.com</span>
+          </div>
+          <ul
+            class="mt-4 d-flex flex-row justify-content-start align-items-center list-unstyled media"
+          >
+            <li>
+              <a href="#" class="text-white rounded-circle me-2 py-1 px-2"
+                ><i class="fa fa-linkedin" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="text-white rounded-circle mx-2 py-1 px-2">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-white rounded-circle mx-2 py-1 px-2">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-white rounded-circle mx-2 py-1 px-2">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-4 mb-md-0 news">
+          <h5 class="fw-bold mb-3">last News</h5>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+            ratione minima iusto, illum culpa facere?
+          </p>
+          <a href="#" class="text-decoration-none">Read more</a>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+      wow = new WOW({
+        boxClass: "wow", // default
+        animateClass: "animate__animated", // default
+        offset: 0, // default
+        mobile: true, // default
+        live: true, // default
+      });
+      wow.init();
+    </script>
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
