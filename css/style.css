@@ -8,6 +8,7 @@ html {
 /* ----- navbar ------*/
 .navbar {
   background-color: rgba(0, 0, 32, 0.713);
+  padding: 0;
 }
 .navbar-nav {
   background-color: rgba(12, 22, 31, 0.994);
@@ -34,7 +35,7 @@ html {
 .nav-item a::before {
   content: "";
   position: absolute;
-  bottom: -26px;
+  bottom: 0;
   left: 0;
   height: 2px;
   width: 0;
