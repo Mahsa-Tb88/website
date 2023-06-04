@@ -7,5 +7,7 @@ This project is dynamic and responsive beautifully by using javascript and Boots
  
  https://mahsa-tb88.github.io/website/
  
+ Desktop Design
  <img src="p1.JPG" width="700"/>
- <img src="p2.JPG" width="700"/>
+ Mobile Design:
+ <img src="p2.JPG" />
